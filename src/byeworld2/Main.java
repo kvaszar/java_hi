@@ -15,7 +15,7 @@ public class Main {
     }
 
 
-    public static <T extends Comparable<T>> T min(T a, T b) {
+    public static <Z extends Comparable<Z>> Z min(Z a, Z b) {
         return (a.compareTo(b) > 0) ? a : b;
     }
 
